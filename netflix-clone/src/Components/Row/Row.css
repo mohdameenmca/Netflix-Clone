@@ -1,0 +1,26 @@
+
+.row_content{
+    display: flex;
+    height: 200px;
+    object-fit: contain;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scrollbar-width: none;
+   
+}
+
+.row_poster{
+    padding: 0.5rem;
+    cursor: pointer;
+    transform: all 0.5s ;
+}
+.video{
+    height: 100px;
+    width: 100%;
+   
+}
+.row_poster:hover{
+    transform: scale(1.08);
+    opacity: 1;
+    /* padding: 0rem; */
+}
